@@ -36,7 +36,7 @@ Wildfires are among the most destructive natural disasters, causing extensive ec
    - BCE-Dice loss for optimizing segmentation.
    - Metrics such as IoU, precision, recall, and F1-score for performance evaluation.
    - Early stopping and model checkpointing for optimal results.
-     ![image](https://github.com/user-attachments/assets/f8de7857-a8e9-4e5c-beb4-93b45cf4f619)
+     
 
 
 4. **Deployment**:
@@ -58,7 +58,10 @@ Wildfires are among the most destructive natural disasters, causing extensive ec
 ### Visualization
 
 - **Training vs. Validation Loss**: Plots indicate stable convergence and minimal overfitting.
+ ![image](https://github.com/user-attachments/assets/f8de7857-a8e9-4e5c-beb4-93b45cf4f619)
 - **Inference Results**: Comparison of true vs. predicted fire regions for selected samples.
+  ![image](https://github.com/user-attachments/assets/9b8fae86-7560-4b26-8616-f859e7df1057)
+
 
 ---
 
