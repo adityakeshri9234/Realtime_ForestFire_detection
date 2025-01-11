@@ -82,29 +82,32 @@ Wildfires are among the most destructive natural disasters, causing extensive ec
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/adityakeshri9234/weather_app_react_.git
+git clone https://github.com/adityakeshri9234/Realtime_ForestFire_detection.git
+cd Realtime_ForestFire_detection
 ```
 
-### Install Dependencies
-Ensure you have Python 3.7+ and install the required libraries:
-```bash
-pip install -r requirements.txt
-```
+
 
 ---
 
 ## Usage
 
 1. Prepare your dataset in the required format.
-2. Train the model:
    ```bash
-   python train.py
+   python datapreprocessing.py
    ```
-3. Evaluate results:
+2. ```bash
+   !pip install git+https://github.com/tensorflow/examples.git
+   ```
+3. Initialize the model:
    ```bash
-   python evaluate.py
+   python model.py
    ```
-4. Deploy for real-time detection.
+4. Train and evaluate results:
+   ```bash
+   python train_evaluate.py
+   ```
+5. Deploy for real-time detection.
 
 ---
 
