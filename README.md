@@ -18,21 +18,26 @@ Wildfires are among the most destructive natural disasters, causing extensive ec
 
 ---
 
+   
 ## Project Workflow
 
 1. **Data Preprocessing**: 
    - Input features include environmental parameters like temperature, humidity, wind speed, and vegetation indices.
    - Normalization and clipping ensure consistency and efficiency.
-   
+   ![image](https://github.com/user-attachments/assets/0a864bcf-2073-45b7-a871-a7cbadbf5d0f)
+
 2. **Model Architecture**:
    - MobileNetV2 for efficient feature extraction.
    - LSTM layers for capturing temporal dependencies.
    - Upsampling with skip connections for precise segmentation.
+   ![Screenshot 2024-11-24 185126](https://github.com/user-attachments/assets/ec0aab6c-a600-455b-a5f8-12f2fa6c91f9)
 
 3. **Training and Evaluation**:
    - BCE-Dice loss for optimizing segmentation.
    - Metrics such as IoU, precision, recall, and F1-score for performance evaluation.
    - Early stopping and model checkpointing for optimal results.
+     ![image](https://github.com/user-attachments/assets/f8de7857-a8e9-4e5c-beb4-93b45cf4f619)
+
 
 4. **Deployment**:
    - Potential for integration with IoT devices and real-time systems.
